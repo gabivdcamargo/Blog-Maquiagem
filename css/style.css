@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.titulo{
+    font-size: 3rem;
+    color: rgb(245, 124, 185);
+    background-color: #ffe4e1;
+    padding: 10px;
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(255, 159, 220);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box img{
+    display: flex;
+}
+
+.textoImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+}
+
+.texto span{
+    font-size: 2rem;
+}
